@@ -1,0 +1,115 @@
+.panda_1 {
+    display: inline-block;
+    width: 468px;
+    padding-left: 37px;
+    margin-left: -37px;
+    margin-bottom: 20px;
+    height: 263px;
+    background: url(../images/panda-bg.png) no-repeat right top;
+    overflow: hidden;
+    position: relative;
+}
+
+.panda_title {
+    margin: 18px 0 23px 25px;
+    color: #333333;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.panda_img {
+    float: left;
+    width: 81px;
+    height: 100%;
+    position: relative;
+}
+
+.panda_gif {
+    width: 35px;
+    height: 30px;
+    left: 0px;
+    top: 8px;
+    display: inline-block;
+    position: absolute;
+}
+
+.panda_live {
+    display: inline;
+    width: 60px;
+    height: 24px;
+    float: right;
+    margin-top: 13px;
+}
+
+.panda_ul li {
+    height: 41px;
+    width: 191px;
+    float: left;
+    margin: 0 0 19px 32px;
+}
+
+.panda_text {
+    padding: 13px 0 4px 0;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.guanggao {
+    width: 1200px;
+    margin: auto;
+    clear: both;
+    text-align: left;
+}
+
+.guanggao::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.gd_1,
+.gd_2 {
+    position: relative;
+}
+
+.gd {
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+    z-index: 4;
+    padding: 0px 3px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    opacity: 0.5;
+}
+
+.animate {
+    position: absolute;
+    width: 47px;
+    height: 263px;
+    left: -10px;
+    top: 0;
+}
+
+.animate .xiongmao_img {
+    height: 103px;
+    width: 38px;
+    position: absolute;
+    top: 160px;
+    left: 9px;
+    background: url(../images/xiongmao.png) no-repeat -494px 0px;
+    animation: actionImg 2s steps(13) forwards infinite;
+    transition: 1s;
+}
+
+@keyframes actionImg {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: -494px 0px;
+    }
+}

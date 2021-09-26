@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c {
+            background-color: red;
+            /* width: 100px; */
+            height: 100px;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        
+        .d {
+            background-color: blue;
+            width: 50px;
+            height: 50px;
+            /* position: relative;
+            left: 25px;
+            top: 25px; */
+        }
+    </style>
+</head>
+
+<body>
+    <p class="e">
+        <p class="d"></p>
+    </p>
+    <p class="c">
+        <button class="d">
+        </button>
+    </p>
+
+    <input type="text" id="text" name="name" />
+    <button type="submit" onclick="ad()"></button>
+
+
+    <div id="textDiv"></div>
+
+
+
+
+    <script>
+        var textDiv = document.getElementById('textDiv');
+        var para = document.createElement('a');
+        textDiv.appendChild(para);
+        para.innerHTML = "111";
+
+        var c = document.getElementsByClassName("c")[0];
+
+
+
+        var input = document.getElementById("text").value;
+        var c = document.getElementsByClassName("c")[0];
+
+        var a1 = undefined;
+        var a2 = Boolean(a1);
+        console.log(a2);
+
+        // alert(typeof input);
+        var input1 = Number.parseInt(input);
+        c.style.width = input1 + "px";
+        console.log(input);
+
+
+
+        var text = "This is the letter sigma: \u03a3.";
+        console.log(text.length);
+
+        var lang = "java";
+        lang = lang + "script";
+        console.log(lang);
+
+        var num1 = -18;
+        console.log(num1.toString(2));
+
+        var num2 = 12 & 3;
+        console.log(num2);
+
+        var num3 = -64;
+        var newNum3 = num3 >>> 5;
+        console.log(newNum3);
+
+
+        var num4 = "2" < "32";
+        console.log(num4);
+
+        // switch (i) {
+        //     case 25:
+        //         alert("25");
+        //         break;
+        // }
+
+
+        var location1 = {
+            href: "asda"
+        }
+
+        function buildUrl() {
+            var qs = "?debug=true";
+            with(location1) {
+                var url = href + qs;
+            }
+            console.log(url);
+        }
+        buildUrl();
+
+
+        var person = {
+            name: "nicholas",
+            age: 29
+        };
+        var person1 = person instanceof Object;
+        console.log(person1)
+
+        var xiaoshu = 300000000
+        console.log(xiaoshu.toLocaleString());
+
+        var numbers = [1, 2, 3, 4, 5];
+        // var everyResult = numbers.every(item, index, numbers);
+        // console.log(everyResult);
+
+
+        var allFives = new Date(Date.UTC(2005, 4, 5, 17, 55, 55))
+        console.log(allFives);
+
+
+
+        var numberValue = 10;
+        var numberValue1 = new Number(10);
+        console.log(typeof numberValue);
+        console.log(Object.prototype.toString.call(numberValue))
+        console.log(Object.prototype.toString.call(numberValue1))
+        console.log(numberValue instanceof Number);
+
+
+
+        var numberValue2 = "10";
+        var numberValue3 = new String("10");
+        console.log(typeof numberValue2);
+        console.log(numberValue2 instanceof String);
+
+        var uri = "http://www.wrox.com/illegal value.htm#start";
+        console.log(encodeURI(uri));
+
+        // function inn() {
+        //     var str = "<p>";
+        //     str += "text";
+        //     str += "</p>"
+        //     document.write(str);
+        // }
+        // inn();
+
+        // var a = () => {
+        //     return 1;
+        // };
+        // var b = function() {
+        //     return 1;
+        // }
+        // console.log(b());
+        // // b();
+        // var c = document.querySelector(".c");
+        // var d = document.querySelector(".d");
+        // c.addEventListener('click', function(e) {
+        //     console.log(e.target);
+        //     console.log("c")
+        // }, true);
+        // d.addEventListener('click', function(e) {
+        //     console.log(e.target);
+        //     console.log("d")
+
+        // }, true);
+    </script>
+</body>
+
+</html>

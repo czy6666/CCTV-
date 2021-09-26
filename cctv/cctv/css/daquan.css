@@ -1,0 +1,134 @@
+.daquan {
+    background: #fff;
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.daquan::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.daquan_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.daquan_title {
+    width: 1200px;
+    height: 63px;
+    text-align: center;
+    padding-top: 33px;
+    position: relative;
+}
+
+.daquan_t table {
+    border-collapse: collapse;
+    height: 139px;
+}
+
+.daquan_t td {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    width: 132px;
+}
+
+.tdhover {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #535353;
+    font-weight: bold;
+    padding: 14px 0 8px 0;
+    cursor: pointer;
+}
+
+.cctv_left {
+    padding: 20px 0 16px 30px;
+    width: 260px;
+    min-height: 166px;
+    float: left;
+    border-right: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.cctv_left2 p {
+    font-weight: bold;
+    color: #bf0614;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    margin-top: 11px;
+}
+
+.cctv_left2 a {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cctv_right {
+    width: 899px;
+    height: 180px;
+    float: right;
+    padding-top: 20px;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.cctv_right td {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    width: 129px;
+    height: 32px;
+    padding-left: 20px;
+}
+
+.whtd {
+    border-bottom: 6px solid #fff;
+}
+
+.redtd {
+    border-bottom: 6px solid #bf0614;
+}
+
+.daquan_hover {
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.daquan_img {
+    width: 224px;
+    height: 100px;
+    float: left;
+    margin-right: 1.66%;
+    margin-top: 20px;
+}
+
+.daquan_img_hover {
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.gd {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 999;
+    padding: 0px 3px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0%;
+    opacity: 0.5;
+}
