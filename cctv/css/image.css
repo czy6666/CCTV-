@@ -1,0 +1,101 @@
+.kongge {
+    position: absolute;
+    top: 4000px;
+}
+
+.image_action {
+    position: relative;
+    overflow: hidden;
+    height: 634px;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.image_content {
+    position: relative;
+    width: 1400px;
+    height: 634px;
+}
+
+.image_title {
+    font-size: 15px;
+    height: 582px;
+    width: 320px;
+    padding: 26px 0;
+    background: url(../images/bg72.png) repeat;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    z-index: 1;
+}
+
+.image_item {
+    width: 1400px;
+    height: 634px;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.title_item {
+    overflow: hidden;
+    width: 280px;
+    padding: 8px 20px;
+    height: 40px;
+    position: relative;
+}
+
+.title_item:hover {
+    position: relative;
+    background: url(../images/pics_show01.png) repeat-y;
+    margin: 0px 0;
+    padding: 0px 20px;
+    height: 78px;
+}
+
+.titleA {
+    float: left;
+    position: absolute;
+    top: 16px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.title_item:hover .titleA {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.titleHover {
+    float: left;
+    position: absolute;
+    top: 16px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.titleNone {
+    float: left;
+    position: absolute;
+    top: 16px;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.title_itemHover {
+    position: relative;
+    background: url(../images/pics_show01.png) repeat-y;
+    margin: 0px 0;
+    padding: 0px 20px;
+    height: 78px;
+}

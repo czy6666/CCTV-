@@ -1,0 +1,330 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.footer_content1 {
+    height: 199px;
+    border-bottom: 1px solid #484848;
+    background: #333;
+}
+
+.foot_con {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot_con::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.foot_ul {
+    width: 285px;
+    float: left;
+    padding-top: 28px;
+}
+
+.foot_ul h3 {
+    color: #c10714;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 28px;
+    border-right: 1px solid #272727;
+}
+
+.foot_ul ul {
+    border-right: 1px solid #272727;
+    height: 88px;
+}
+
+.foot_ul li {
+    float: left;
+    width: 134px;
+    line-height: 14px;
+    padding-bottom: 20px;
+}
+
+.foot_ul li a {
+    color: #fefefe;
+    font-size: 14px;
+}
+
+.footer_icon {
+    text-align: center;
+}
+
+.footer_icon a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    margin-left: 14px;
+}
+
+.footer_icon img {
+    float: left;
+    margin-top: 1px;
+    margin-right: 7px;
+    width: 32px;
+    height: 32px;
+}
+
+.footer_search {
+    margin-top: 66px;
+    position: relative;
+    float: right;
+    width: 288px;
+    height: 40px;
+}
+
+#foot_sea {
+    width: 243px;
+    height: 40px;
+    line-height: 40px;
+    background: #272727;
+    border: 0;
+    color: #b9b9b9;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+    margin-right: 1px;
+    padding-right: 1px;
+}
+
+#foot_button {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 34px;
+    height: 40px;
+    background: url(../images/footer_searchIcon.jpg) no-repeat 2px center #272727;
+    z-index: 2;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.footer_content2 {
+    height: 100px;
+    background: #272727;
+    color: #cacaca;
+    font-size: 12px;
+}
+
+.foot2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot_left {
+    float: left;
+    padding-top: 17px;
+}
+
+.foot2 a {
+    color: #cacaca;
+}
+
+.foot_right {
+    overflow: hidden;
+    padding: 22px 0 10px 66px;
+    float: right;
+}
+
+.foot_right2 {
+    width: 87px;
+    text-align: right;
+    margin-left: 40px;
+}
+
+.floatNav {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid #cc3440;
+    border-radius: 5px;
+    background: url(../images/navBg.png) repeat;
+    width: 78px;
+    z-index: 99;
+    display: none;
+}
+
+.floatNav1 {
+    background: url(../images/navBg_top.png) no-repeat center top;
+    padding-top: 12px;
+    margin-left: -1px;
+}
+
+.floatNav1 ul {
+    background: url(../images/navBg_bot.png) no-repeat center bottom;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.floatNav1 li {
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    /* color: #3d3d3d; */
+    margin-bottom: 8px;
+}
+
+.download {
+    text-align: center;
+    padding-top: 10px;
+    line-height: 34px;
+    border-top: 1px solid #e59ba1;
+    color: #3d3d3d;
+    font-size: 14px;
+    position: relative;
+}
+
+.download i,
+.active i {
+    padding-left: 27px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 34px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.down_hover {
+    position: absolute;
+    width: 264px;
+    height: 124px;
+    right: 78px;
+    top: -44px;
+    display: none;
+    animation: Hover1 1s steps(1) forwards;
+}
+
+.down_hover ul {
+    padding: 17px 10px;
+    width: 240px;
+    height: 90px;
+    background: url(../images/appDowBg.png) no-repeat bottom right;
+    box-shadow: 0 0 10px rgb(0 0 0 / 24%);
+    border-radius: 5px;
+}
+
+.down_hover li {
+    float: left;
+    padding: 0 7px;
+    line-height: 20px;
+}
+
+.down_hover p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.active {
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    color: #3d3d3d;
+    font-size: 14px;
+    position: relative;
+}
+
+.active_hover {
+    position: absolute;
+    width: 264px;
+    height: 236px;
+    right: 78px;
+    top: -112px;
+    display: none;
+}
+
+.active_hover li {
+    width: 262px;
+    height: 113px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 24%);
+    border-radius: 5px;
+}
+
+.phone {
+    height: 34px;
+    cursor: pointer;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 34px;
+    border-bottom: 1px solid #e59ba1;
+    color: #3d3d3d;
+    font-size: 14px;
+    position: relative;
+}
+
+.phone_hover {
+    position: absolute;
+    width: 114px;
+    height: 144px;
+    right: 78px;
+    top: -58px;
+    display: none;
+}
+
+.phone_hover ul {
+    width: 110px;
+    height: 144px;
+    background: url(../images/code.png) no-repeat bottom right;
+    box-shadow: 0 0 10px rgb(0 0 0 / 24%);
+    border-radius: 5px;
+}
+
+.phone_hover img {
+    display: block;
+    margin: 5px auto;
+    width: 90px;
+    height: 90px;
+}
+
+.phone_hover p {
+    color: #5a5e62;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.toTop {
+    background: url(../images/floatNav-gotop.png) no-repeat center 12px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.flli {
+    color: #3d3d3d;
+}
+
+.ss:hover {
+    color: #bf0614;
+}
+
+.redLi {
+    background-color: #cc3440;
+    color: #fff;
+}
+
+.redLi a {
+    color: #fff;
+}
+
+
+/* @keyframes Hover1 {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+        width: 264px;
+        height: 124px;
+    }
+} */
